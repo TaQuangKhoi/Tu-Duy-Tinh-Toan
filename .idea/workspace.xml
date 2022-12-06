@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c715e28f-0951-4902-bf66-29acb1a7f973" name="Changes" comment="Xong 2 bài cô giao" />
+    <list default="true" id="c715e28f-0951-4902-bf66-29acb1a7f973" name="Changes" comment="Chỉnh code bài 1 sửa lỗi chưa return">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/buoi 10.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/buoi 10.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Purecode/buoi 10/example 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Purecode/buoi 10/example 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/My_Repos/GitHub/TaQuangKhoi/Tu-Duy-Tinh-Toan",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My_Repos/GitHub/TaQuangKhoi/Tu-Duy-Tinh-Toan&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="example 1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tu-Duy-Tinh-Toan-1" />
@@ -79,7 +86,10 @@
       <option name="presentableId" value="Default" />
       <updated>1669788257219</updated>
       <workItem from="1669788270867" duration="156000" />
-      <workItem from="1669788454054" duration="8542000" />
+      <workItem from="1669788454054" duration="11810000" />
+      <workItem from="1669992156109" duration="1250000" />
+      <workItem from="1669993870063" duration="126000" />
+      <workItem from="1669994022084" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="Save before new class">
       <created>1669788631455</created>
@@ -102,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669796041797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Chỉnh code bài 1 sửa lỗi chưa return">
+      <created>1669797085804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669797085804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +140,22 @@
     <MESSAGE value="Save before new class" />
     <MESSAGE value="Save my new code and some settings in .idea" />
     <MESSAGE value="Xong 2 bài cô giao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Xong 2 bài cô giao" />
+    <MESSAGE value="Chỉnh code bài 1 sửa lỗi chưa return" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chỉnh code bài 1 sửa lỗi chưa return" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/My_Repos/GitHub/TaQuangKhoi/Tu-Duy-Tinh-Toan/Notebooks/buoi 10.ipynb</url>
+          <line>115</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Tu_Duy_Tinh_Toan$example_1.coverage" NAME="example 1 Coverage Results" MODIFIED="1669799951959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Purecode/buoi 10" />
     <SUITE FILE_PATH="coverage/Tu_Duy_Tinh_Toan$test.coverage" NAME="test Coverage Results" MODIFIED="1669797037309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Notebooks" />
-    <SUITE FILE_PATH="coverage/Tu_Duy_Tinh_Toan$example_1.coverage" NAME="example 1 Coverage Results" MODIFIED="1669796012487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Purecode/buoi 10" />
   </component>
 </project>
